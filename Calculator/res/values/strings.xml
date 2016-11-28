@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="incorrect">Incorrect expression</string>
+    <string name="unknown_gesture">Unknown gesture</string>
+    <string name="div_zero">Division by zero</string>
+    <string name="incorrect_sign">Incorrect sign</string>
+</resources>

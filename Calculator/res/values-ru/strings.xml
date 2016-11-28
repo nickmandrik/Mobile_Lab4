@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="incorrect">Неверное выражение</string>
+    <string name="unknown_gesture">Жест не найден</string>
+    <string name="div_zero">Деление на ноль</string>
+    <string name="incorrect_sign">Неверный знак</string>
+</resources>
