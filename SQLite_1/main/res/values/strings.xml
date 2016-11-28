@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">First app DB</string>
+    <string name="add">Add new record</string>
+    <string name="edit">Edit last record</string>
+    <string name="info">Look records</string>
+    <string name="choose">You choose</string>
+    <string name="user">User with #</string>
+    <string name="added">successfully added!</string>
+    <string name="success">Success!</string>
+</resources>

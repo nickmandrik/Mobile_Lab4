@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">1-ое ДБ приложение</string>
+    <string name="add">Добавить новую запись</string>
+    <string name="edit">Редактировать последнюю запись</string>
+    <string name="info">Просмотреть записи</string>
+    <string name="choose">Вы выбрали</string>
+    <string name="user">Пользователь №</string>
+    <string name="added">успешно добавлен</string>
+    <string name="success">Действие завершено успешно</string>
+</resources>
