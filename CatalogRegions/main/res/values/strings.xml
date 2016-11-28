@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Каталог Районов Беларуси</string>
+    <string name="show_all_btn_text">Посмотреть все районы</string>
+    <string name="show_filter_activity">Посмотреть районы по фильтрам</string>
+    <string name="district_col">Район</string>
+    <string name="population_col">Население</string>
+    <string name="region_col">Область</string>
+    <string name="code_col">Код</string>
+
+    <string name="max_population">Максимальное население</string>
+    <string name="min_population">Минимальное население</string>
+    <string name="sum_population">Общее население в районах</string>
+
+    <string name="aggregating_btn_text">Посмотреть аггрегирующие функции</string>
+    
+    <string name="population_label">Укажите минимальное население:</string>
+    <string name="region_select">Выберите область:</string>
+    <string name="filter_btn">Фильтровать</string>
+
+    <string name="dialog_min_pop">Минимальное население в районе</string>
+    <string name="dialog_max_pop">Максмимальное население в районе</string>
+    <string name="dialog_sum_pop">Общее количество населения</string>
+
+    <string name="filter_region_none">Вся Беларусь</string>
+
+    <string-array name="regions">
+        <item>Брестская</item> <!-- 0-->
+        <item>Витебская</item> <!--1-->
+        <item>Гомельская</item> <!--2-->
+        <item>Гродненская</item> <!--3-->
+        <item>Могилевская</item> <!--4-->
+        <item>Минскская</item> <!--5-->
+        <item>Минск</item>
+    </string-array>
+
+    <string-array name="districts">
+        <!--Brest-->
+        <item>Барановичский</item>
+        <item>Пинский</item>
+        <item>Березовский</item>
+        <item>Кобринский</item>
+
+        <item>Глубокский</item>
+        <item>Городокский</item>
+        <item>Оршанский</item>
+        <item>Браславский</item>
+
+        <item>Мозырский</item>
+        <item>Речицкий</item>
+        <item>Рогачевский</item>
+        <item>Хойникский</item>
+
+        <item>Волковысский</item>
+        <item>Лидский</item>
+        <item>Слонимский</item>
+        <item>Вороновский</item>
+
+        <!--Mogilev-->
+        <item>Белынический</item>
+        <item>Бобруйский</item>
+        <item>Горецкий</item>
+        <item>Кричевский</item>
+
+        <item>Березинский</item>
+        <item>Воложинский</item>
+        <item>Дзержинский</item>
+        <item>Несвижский</item>
+
+    </string-array>
+    
+    <integer-array name="districts_population">
+
+        <item>47700</item>
+        <item>60200</item>
+        <item>73300</item>
+        <item>90100</item>
+
+        <item>41000</item>
+        <item>26800</item>
+        <item>31000</item>
+        <item>29200</item>
+
+        <item>132300</item>
+        <item>105000</item>
+        <item>63800</item>
+        <item>22300</item>
+
+        <item>82200</item>
+        <item>47000</item>
+        <item>72000</item>
+        <item>38000</item>
+
+        <item>19156</item>
+        <item>17362</item>
+        <item>46293</item>
+        <item>32592</item>
+
+        <item>29800</item>
+        <item>42000</item>
+        <item>61500</item>
+        <item>43500</item>
+    </integer-array>
+
+    <integer-array name="districts_reg_id">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+
+    <integer-array name="district_codes">
+        <item>80163</item>
+        <item>80165</item>
+        <item>801643</item>
+        <item>801642</item>
+
+        <item>802156</item>
+        <item>802139</item>
+        <item>80216</item>
+        <item>802153</item>
+
+        <item>802363</item>
+        <item>802340</item>
+        <item>802339</item>
+        <item>802346</item>
+
+        <item>801512</item>
+        <item>80154</item>
+        <item>801562</item>
+        <item>801594</item>
+
+        <item>802232</item>
+        <item>80225</item>
+        <item>802233</item>
+        <item>802241</item>
+
+        <item>801715</item>
+        <item>801772</item>
+        <item>801716</item>
+        <item>801716</item>
+    </integer-array>
+</resources>

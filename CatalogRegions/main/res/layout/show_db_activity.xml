@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ShowDBActivity">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="showDialogMin"
+                    android:text="@string/min_population" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="showDialogMax"
+                    android:text="@string/max_population" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="showDialogSum"
+                    android:text="@string/sum_population" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/db_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="center"
+                    android:onClick="sortByDistinct"
+                    android:padding="5dp"
+                    android:text="@string/district_col"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:onClick="sortByPopulation"
+                    android:padding="5dp"
+                    android:text="@string/population_col"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:onClick="sortByRegion"
+                    android:padding="5dp"
+                    android:text="@string/region_col"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:onClick="sortByCode"
+                    android:padding="5dp"
+                    android:text="@string/code_col"
+                    android:textSize="18sp" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
